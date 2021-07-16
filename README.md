@@ -1,9 +1,8 @@
 # Just-my-note
-All notes for myself to keep up with everything
+This notes might not be correct. This is just a summary or key note from what I understand. Therefore, It contains only core that worth to note it down and remember.
 
 To finish list
 - K8s network
-- helm
 
 Learning list
 - Devops skill
