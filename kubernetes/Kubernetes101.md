@@ -16,10 +16,20 @@ One of famous IngressController is Nginx.
 - Workload resources
   - Deployment : It's instruction of desired state of application. We can set how many pod to deploy, deployment strategy and so on.
   - StatefulSet : Similar to Deployment but for stateful applications such as database. 
-  - DaemonSet : DaemonSet ensures that Nodes(or somes) run a copy of Pad. One of use cases is log collector.
+  - DaemonSet : DaemonSet ensures that Nodes(or somes) run a copy of Pod. One of use cases is log collector.
+- Storage
+  - PersistentVolumeA(PV) : is a piece of storage in the cluster that provisioned manually or using StorageClass. PV also contain information about specific detail. 
+  - PersistentVolumeClaima(PVC) : is a request for storage to attached to Pod. Relation between PV and PVC is similar to Pod and Node.Pod consumes Node resources and PVC consumes PV resources. PCV has 2 properties, size and access mode.
+  - StorageClass : with PV, user have to create volume statically before use. By StorageClass, volume can be provisioned dynamically.
 - Configuration
   - ConfigMap : ConfigMap is key-value pairs data that can be injected to Pod. Pods can consumes ConfigMaps as env variables, cmd arguments or configuration files.
-  - Secret : Similar to ConfigMap but for sensitive data. Eg. TLS secrets, database password
+  - Secret : Similar to ConfigMap but for sensitive data. Eg. TLS secrets, database password.
+- Access control
+  - Service accounts : User that respresents Pod to when interact wih apiserver in K8s. 
+  - Roles : A set of permissions with a particular namespace. Permission is defined by resources type(target of action) and verbs(action)
+  - ClusterRole : Similar to Roles but not restrict to a namespace. It define roles on cluster scope Eg. Nodes.
+  - RoleBindings : Grant a role to users, service accounts. 
+  - ClusterRoleBindings : Similar to RoleBindings but for ClusterRole.
 - Kubernetes Objects : 
   K8s can describe in YAML file with 4 required fields.
   - apiVersion : version of K8s api.
