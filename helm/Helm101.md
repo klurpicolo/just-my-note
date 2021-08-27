@@ -17,7 +17,6 @@ helm/
         service.yaml
         ingress.yaml
         ...
-
 ```
 
 ## Install 
