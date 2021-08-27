@@ -3,8 +3,6 @@ This notes might not be correct. This is just a summary or key note from what I 
 
 To finish list
 - deployment strategy
-- kubernetes/CommandLine
-- Terraform
 
 Learning list
 - Devops skills
@@ -12,7 +10,13 @@ Learning list
   - flux 
   - datree
   - istio
-  - elastic stack
+
+- Infrastructure
+  - redis
 
 - Languages
   - Go
+
+- ETC
+  - openId
+  - reactive stack
