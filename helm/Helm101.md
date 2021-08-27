@@ -19,6 +19,9 @@ helm/
         ...
 ```
 
+### Helm dependencies
+In case that we want to add another Helm application as dependency, we can add its information in Chart.yaml. For example, Create own ELK Chart that consist of Kinaba, ElasticSearch and Logstash by declear them as dependencies.
+
 ## Install 
 ```
 When install parameter in template will be replaced by value in values.yaml
