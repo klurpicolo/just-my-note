@@ -2,8 +2,8 @@
 Docker is the tool for build image(packeage application) from DockerFile and run in a loosely isolated environment called container. Docker isn't only tool for making container application but it's the most famous.
 
 ## Terminology
-Container : A container is a runnable instance of an image.
-Image : An image is read-only template with instruction for creating Docker container. It can be compared to class or blueprint.
+- Container : A container is a runnable instance of an image.
+- Image : An image is read-only template with instruction for creating Docker container. It can be compared to class or blueprint.
 
 ## Dockerfile 
 Dockerfile contains instruction on how to build image 
