@@ -30,6 +30,7 @@ One of famous IngressController is Nginx.
   - ClusterRole : Similar to Roles but not restrict to a namespace. It define roles on cluster scope Eg. Nodes.
   - RoleBindings : Grant a role to users, service accounts. 
   - ClusterRoleBindings : Similar to RoleBindings but for ClusterRole.
+- Custom Resource Definition(CRD) : is extension of the K8s API. CRD can be defind and installed. Eg. ArgoCD Applicatgion, IstioOperator.
 - Kubernetes Objects : 
   K8s can describe in YAML file with 4 required fields.
   - apiVersion : version of K8s api.
