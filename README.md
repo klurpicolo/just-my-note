@@ -6,10 +6,14 @@ To finish list
 
 Learning list
 - Devops skills
+  - ansible
   - argocd 
   - flux 
   - datree
   - istio
+
+- QA
+  - A/B testing
 
 - Infrastructure
   - redis
@@ -17,6 +21,13 @@ Learning list
 - Languages
   - Go
 
+- Network
+  - trace route
+  - routing table
+  - ngrok
+  - websocket
+
 - ETC
   - openId
   - reactive stack
+  - jekyll
